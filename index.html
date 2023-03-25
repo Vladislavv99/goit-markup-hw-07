@@ -28,20 +28,27 @@
       <div class="container nav-address">
         <nav class="menu-nav">
           <a class="logo" href="./index.html">Web<span class="studio-header">Studio</span></a>
-          <ul class="list navigation">
-            <li><a class="navigation-link current" href="./index.html">Studio</a></li>
-            <li>
+          <button class="mob-modal-btn js-open-menu" type="button">
+            <svg class="mob-mobal-icon" width="32" height="22">
+              <use href="./img/icons.svg#icon-charm_menu-hamburger"></use>
+            </svg>
+          </button>
+          <ul class="navigation">
+            <li class="navigation-list"
+              ><a class="navigation-link current" href="./index.html">Studio</a></li
+            >
+            <li class="navigation-list">
               <a class="navigation-link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="navigation-link" href="">Contacts</a></li>
+            <li class="navigation-list"><a class="navigation-link" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address">
           <ul class="navigation">
-            <li>
+            <li class="navigation-list-address">
               <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="navigation-list-address">
               <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
@@ -282,8 +289,8 @@
         </div>
       </section>
       <section class="section">
-        <h2 class="section-title-about">Customers</h2>
         <div class="container">
+          <h2 class="section-title-about">Customers</h2>
           <ul class="company-list">
             <li class="company-block">
               <a class="company-link" href="" target="_blank">
@@ -390,6 +397,7 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
@@ -451,6 +459,53 @@
         </form>
       </div>
     </div>
+    <div class="mobile-menu js-menu-container">
+      <button class="mobile-menu-close js-close-menu" type="button">
+        <svg class="close-menu-icon" width="8" height="8">
+          <use href="./img/icons.svg#icon-close-menu"></use>
+        </svg>
+      </button>
+      <ul>
+        <li><a href=""></a>Studio</li>
+        <li><a href=""></a>Portfolio</li>
+        <li><a href=""></a>Contacts</li>
+      </ul>
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+      <ul class="social-list-icons">
+        <li>
+          <a class="social-link-icon" href="">
+            <svg class="team-icon-item" width="16" height="16">
+              <use href="./img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="social-link-icon" href="">
+            <svg class="team-icon-item" width="16" height="16">
+              <use href="./img/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="social-link-icon" href="">
+            <svg class="team-icon-item" width="16" height="16">
+              <use href="./img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="social-link-icon" href="">
+            <svg class="team-icon-item" width="16" height="16">
+              <use href="./img/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
