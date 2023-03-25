@@ -24,19 +24,21 @@
         <nav class="menu-nav">
           <a class="logo" href="./index.html">Web<span class="studio-header">Studio</span></a>
           <ul class="list navigation">
-            <li><a class="navigation-link" href="./index.html">Studio</a></li>
-            <li>
+            <li class="navigation-list"
+              ><a class="navigation-link" href="./index.html">Studio</a></li
+            >
+            <li class="navigation-list">
               <a class="navigation-link current" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="navigation-link" href="">Contacts</a></li>
+            <li class="navigation-list"><a class="navigation-link" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address">
           <ul class="navigation">
-            <li>
+            <li class="navigation-list-address">
               <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="navigation-list-address">
               <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
@@ -224,7 +226,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container footer-content">
-        <div>
+        <div class="footer-content-item">
           <a class="logo-fotter" href="./index.html"
             >Web <span class="studio-footer">Studio</span></a
           >
@@ -233,7 +235,7 @@
             growth solutions.
           </p>
         </div>
-        <div>
+        <div class="footer-content-item">
           <h3 class="footer-social-text">Social media</h3>
           <ul class="footer-social-list">
             <li class="footer-social-block">
@@ -266,10 +268,10 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form-block">
+        <div class="footer-content-item">
+          <h3 class="footer-social-text">Subscribe</h3>
           <form class="footer-form">
-            <h3 class="footer-form-text">Subscribe</h3>
-            <input class="footer-form-input" type="email" placeholder="E-mail" />
+            <input class="footer-form-input" type="email" name="email" placeholder="E-mail" />
             <button class="footer-form-btn" type="submit"
               >Subscribe
               <svg class="submit-icon" width="24" height="24">

@@ -58,7 +58,7 @@ textarea {
 .container{
     margin: 0 auto;
     max-width: 428px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     padding: 0 16px;
 }
 
@@ -764,7 +764,7 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
     .company-list {
-        gap: 22px;
+        gap: 20px;
     }
 }
 
