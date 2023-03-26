@@ -322,7 +322,7 @@ textarea {
   }
 
   .footer-content-item:nth-child(2) {
-      margin-right: 80px;
+      margin-right: auto;
   }
 
   .footer-content-item:last-child {
@@ -1200,9 +1200,16 @@ textarea {
 }
 
 .social-list-icons-mob {
+    justify-content: center;
     margin-bottom: 40px;
     display: flex;
     gap: 56px;
+}
+
+@media only screen and (max-width: 428px) {
+  .social-list-icons-mob {
+    gap: 40px;
+  }
 }
 
 .social-link-icon-mob {
